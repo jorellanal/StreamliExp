@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.title("Mi primera app en Streamlit holies") 
+st.title("Mi primera app en Streamlit holies jorge ernesto") 
