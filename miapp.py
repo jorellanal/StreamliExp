@@ -3,6 +3,7 @@ import pandas as pd
 import tensorflow as tf
 from sklearn.preprocessing import StandardScaler
 
+tf.config.set_visible_devices([], 'GPU')
 # Cargar el modelo preentrenado
 model = tf.keras.models.load_model('Models/model.keras')
 
