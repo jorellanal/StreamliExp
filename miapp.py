@@ -4,7 +4,7 @@ import tensorflow as tf
 from sklearn.preprocessing import StandardScaler
 
 # Cargar el modelo preentrenado
-model = tf.keras.models.load_model('Models\model.keras')
+model = tf.keras.models.load_model('Models/model.keras')
 
 # Función para preprocesar el archivo cargado
 def preprocess_data(uploaded_file):
